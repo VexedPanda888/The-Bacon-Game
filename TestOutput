@@ -1,0 +1,44 @@
+"C:\Program Files\Java\jdk-16\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.3\lib\idea_rt.jar=51248:C:\Program Files\JetBrains\IntelliJ IDEA 2020.3.3\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\cwhay\Documents\cs10\libs\opencv.jar;C:\Users\cwhay\Documents\cs10\libs\openblas-windows-x86_64.jar;C:\Users\cwhay\Documents\cs10\libs\javacv.jar;C:\Users\cwhay\Documents\cs10\libs\opencv-windows-x86_64.jar;C:\Users\cwhay\Documents\cs10\libs\json-simple-1.1.1.jar;C:\Users\cwhay\Documents\cs10\libs\net-datastructures-4-0.jar;C:\Users\cwhay\Documents\cs10\out\production\cs10 BaconGame
+Loading universe... please wait. This may take a minute or two.
+Commands:
+c <#>: list top (positive number) or bottom (negative) <#> centers of the universe, sorted by average separation
+d <low> <high>: list actors sorted by degree, with degree between low and high
+i: list actors with infinite separation from the current center
+p <name>: find path from <name> to current center of the universe
+s <low> <high>: list actors sorted by non-infinite separation from the current center, with separation between low and high
+u <name>: make <name> the center of the universe
+q: quit game
+
+Kevin Bacon is now the center of the acting universe, connected to 5 of 7 actors with average separation 1.75
+Enter a letter >>c
+Enter an integer n, such that 1<=|n|<=7 >>3
+[Bob: 1.25, Alice: 1.25, Charlie: 1.25]
+
+Press enter to return make another selection from the main menu >>
+
+Kevin Bacon is now the center of the acting universe, connected to 5 of 7 actors with average separation 1.75
+Enter a letter >>p
+Enter a connected actor name in the universe >>Charlie
+[Kevin Bacon, Bob, Charlie]
+
+Press enter to return make another selection from the main menu >>
+
+Kevin Bacon is now the center of the acting universe, connected to 5 of 7 actors with average separation 1.75
+Enter a letter >>u
+Enter an actor name in the universe >>Alice
+Alice is the new center of the universe!
+
+Press enter to return make another selection from the main menu >>
+
+Alice is now the center of the acting universe, connected to 5 of 7 actors with average separation 1.25
+Enter a letter >>d
+Enter an integer for the lowest allowed degree >>0
+Enter an integer for the highest allowed degree >>10
+[Nobody, Nobody's Friend, Dartmouth (Earl thereof), Kevin Bacon, Bob, Alice, Charlie]
+
+Press enter to return make another selection from the main menu >>
+
+Alice is now the center of the acting universe, connected to 5 of 7 actors with average separation 1.25
+Enter a letter >>q
+
+Process finished with exit code 1
